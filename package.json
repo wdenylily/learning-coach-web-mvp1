@@ -1,0 +1,21 @@
+{
+  "name": "learning-coach-web-mvp1",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@vercel/node": "^32.0.0",
+    "openai": "^7.60.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  }
+}
